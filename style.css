@@ -1,0 +1,142 @@
+/* umum */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    text-align: center;
+}
+div{
+    align-items: center;
+    text-align: center;
+}
+/* FONTS */
+@font-face {
+    font-family: amsterdam1;
+    src: url(./font/Amsterdam.ttf.ttf);
+}
+
+/* Colors
+Kuning - #F5DD90
+Ungu tua banget - #261447
+Biru Muda - #9ED8DB
+Ungu Muda - #AB81CD
+Untu Tua aja - #462255
+*/
+
+
+/* Nav Bar */
+.navbar{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background-color: #9ED8DB;
+    width: 95vw;
+    min-height: 5vw;
+    margin-left: 10px;
+    overflow: hidden;
+
+    color: #F5DD90;
+    border-radius: 20px;
+    border: 6px solid ;
+
+}
+ul{
+    display: flex;
+    justify-content: center;
+}
+li{
+    float: left;
+}
+li a{
+    text-decoration: none;
+    color: #462255;
+    font-weight: bold;
+
+    display: block;
+    padding: 10px;
+    font-size: 2rem;
+    font-family: amsterdam1;
+}
+
+/* NAVBAR HOVER */
+li a:hover{
+    background-color: #F5DD90;
+}
+
+/* Banner */
+.banner{
+    background-color: #AB81CD;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    align-items: center;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    color: #462255;
+    font-family: amsterdam1;
+}
+
+/* linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)),  */
+.bannername{
+    text-align: center;
+    align-items: center;
+    color: #462255;
+    font-family: amsterdam1;
+    font-size: 5rem;
+}
+
+/* DESCRIPTION */
+.desc1{
+    width: 100vw;
+    height: 100vh;
+    background: url(./gambar/Cloudy\ 1.png);
+    background-attachment: fixed;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    font-family: amsterdam1;
+    color: #462255;
+}
+
+.desc2{
+    width: 100vw;
+    height: 100vh;
+    background: #AB81CD;
+    background-attachment: fixed;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    font-family: amsterdam1;
+    color: #462255;
+}
+
+.form1{
+    border-color: #F5DD90;
+}
+.submitbutton, textarea{
+    border-color: #AB81CD;
+    border-radius: 2px;
+    font-family: amsterdam1;
+    background-color: #AB81CD;
+    color: #462255;
+}
+.name1{
+    border-color: #AB81CD;
+    border-radius: 2px;
+    font-family: amsterdam1;
+    background-color: #AB81CD;
+    color: #462255;
+}
